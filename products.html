@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Homepage</title>
+  </head>
+  <body>
+    <!-- START OF NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-sm">
+        <a class="navbar-brand" href="Home.html"
+          ><img src="images/logo.png" id="navbar-logo"
+        /></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product_form.html">Inventory</a>
+            </li>
+          </ul>
+        </div>
+        <form class="d-flex">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- END OF NAVBAR -->
+
+    <div class="container-sm">
+      <div class="product-list">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/I/A1R92Q66X-L.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Betel Leaves</h5>
+            <p class="card-text">$2 per pack</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://www.everescents.com.au/wp-content/themes/yootheme/cache/Lemongrass-1-ebe8d995.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Lemongrass</h5>
+            <p class="card-text">$3 for 10 stalks</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0076/4339/8233/products/galangal.jpg?v=1544861854"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Galangal</h5>
+            <p class="card-text">$1</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://www.ingredientsnetwork.com/47/product/63/38/17/p633817img_XL.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ginger</h5>
+            <p class="card-text">$2/lb</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
