@@ -1,7 +1,6 @@
 h1 {
     /* color: red; */
 }
-
 #navbar-logo {
     width: 100px;
 }
@@ -42,19 +41,17 @@ h1 {
 #post1 {
     width: 70%;
     height: 500px;
-    /* background-color: red; */
-    /* background: url(); */
+ 
 }
 
 #post2 {
     width: 30%;
     height: 500px;
-    /* background-color: blue; */
+  
 }
 
 #post2-top {
     height: 200px;
-    /* background-color: red; */
     background: url('https://img.freepik.com/free-photo/healthy-vegetables-wooden-table_1150-38014.jpg');
     color: white;
     font-weight: bold;
@@ -63,7 +60,6 @@ h1 {
 
 #post2-bottom {
     height: 200px;
-    /* background-color: blue; */
     background: url('https://www.englishclub.com/images/vocabulary/food/vegetables/vegetables.jpg');
     color: white;
     font-weight: bold;
@@ -74,4 +70,9 @@ h1 {
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+
+.card > img {
+    /*width: 200px;*/
+    height: 150px;
 }
